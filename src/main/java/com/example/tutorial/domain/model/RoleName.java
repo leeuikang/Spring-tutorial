@@ -1,4 +1,4 @@
-package com.example.tutorial.domain;
+package com.example.tutorial.domain.model;
 
 public enum RoleName {
     ADMIN,USER

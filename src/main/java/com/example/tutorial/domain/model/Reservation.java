@@ -1,10 +1,9 @@
-package com.example.tutorial.domain;
+package com.example.tutorial.domain.model;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalTime;
 import java.util.Objects;
-
-import javax.persistence.*;
 
 @Entity
 public class Reservation implements Serializable {
